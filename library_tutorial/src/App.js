@@ -1,24 +1,24 @@
-import logo from './logo.svg';
 import './App.css';
+import * as React from 'react';
+import Paper from '@mui/material/Paper';
+import Grid from '@mui/material/Grid';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Use masonry
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Grid container rowSpacing={2} columnSpacing={{xs:1, sm: 2, md: 3}}>
+      <Grid item xs={8}>
+        <Paper>xs=8</Paper>
+      </Grid>
+      <Grid item xs={4}>
+        <Paper>xs=4</Paper>
+      </Grid>
+      <Grid item xs={4}>
+        <Paper>xs=4</Paper>
+      </Grid>
+      <Grid item xs={8}>
+        <Paper>xs=8</Paper>
+      </Grid>
+    </Grid>
   );
 }
 
