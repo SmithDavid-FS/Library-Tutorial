@@ -1,5 +1,5 @@
 # Exercise 01 - Library Tutorial
 
-## Using React and Masonry
+## Using React and MUI
 
-#### This is a tutorial on how to use the library *Masonry* in a React Project. I chose *Masonry* because the flexibility for a grid layout will assist my project in placement of all the items I will be using.
+#### This is a tutorial on how to use the library *MUI* in a React Project. I chose *MUI* because it is the most well known and widely used library (as per my research) and contains a ton of components that will be helpful in creating and styling for my application.
