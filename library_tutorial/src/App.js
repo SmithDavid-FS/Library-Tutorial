@@ -7,7 +7,7 @@ import {orange, blue} from '@mui/material/colors';
 
 function App() {
   return (
-    <Grid container spacing={2} columns={10}>
+    <Grid container spacing={2} columns={32}>
       <Grid item xs={8}>
         <Box sx={{color: orange[800], bgcolor: blue[200]}}>Testing</Box>
       </Grid>
